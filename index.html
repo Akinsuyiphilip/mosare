@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <main class="com">
+    <section class="card pre-submitted " id="pre-submit">
+
+      <div class="star-image">
+        <img class="star" src="./images/icon-star.svg" alt="">
+      </div>
+
+      <div class="fir-text">
+
+        <div class="h1-ett">
+          <h2 class="how">
+            How did we do?
+          </h2>
+        </div>
+        <p class="lines">
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+      </div>
+      <div class="num" id="numbers">
+        <div class="circle" id="circled1">1</div>
+        <div class="circle" id="circled2">2</div>
+        <div class="circle" id="circled3">3</div>
+        <div class="circle" id="circled4">4</div>
+        <div class="circle" id="circled5">5</div>
+      </div>
+      <div class="submitbtn" id="submitto">
+        Submit
+      </div>
+    </section>
+
+    <section class="card post-submitted hide" id="post-submit">
+
+      <div class="all">
+        <div class="thank-you">
+          <img src="./images/illustration-thank-you.svg" alt="">
+        </div>
+        <div class="selection">
+          you selected 4 out of 5
+        </div>
+        <div class="thanks">
+          Thank You!
+        </div>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don't hesitate to get in touch!
+
+        </p>
+      </div>
+    </section>
+
+
+  </main>
+
+
+   <script src="./main.js"></script>
+</body>
+
+</html>
